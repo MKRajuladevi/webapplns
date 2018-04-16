@@ -1,0 +1,24 @@
+# Login Section
+login.h1.text=Please Sign In
+login.p.lead=Please Sign In to access Spring Boot Demo great features!
+login.username.text=Username
+login.password.text=Password
+login.error.message=Incorrect User Name or Password
+
+
+# Navbar text
+navbar.about.text=About
+navbar.contact.text=Contact Us
+navbar.home.text=Home
+navbar.login.text=Log In
+navbar.logout.text=Logout
+logout.user.text=Log Out
+link.logout.text=/logout
+payload.h1.text=Welcome
+payload.p.lead=Great Feature Ahead
+login.invalid.text=Invalid Username / Password
+beneficiary.header.text=Beneficiaries Data Upload
+data.enteredcount.text=Data Entered count with out Excel file :
+
+
+

@@ -1,0 +1,17 @@
+# Configuration for postgres
+
+# Server Port
+server.port=8080
+server.contextPath=/epassmasters
+
+#spring.jpa.hibernate.ddl-auto=create
+spring.jpa.hibernate.ddl-auto = update
+spring.database.driverClassName=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/epassmasters
+spring.datasource.username=epassmasters
+spring.datasource.password=epassmasters
+spring.datasource.testWhileIdle = true
+spring.datasource.validationQuery = SELECT 1
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL92Dialect
+spring.jpa.show-sql =true

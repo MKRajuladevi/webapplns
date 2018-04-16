@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/header :: common-header"/>
+<body>
+<div th:replace="common/navbar :: common-navbar"></div>
+<div style="margin-top: 10%">
+<form name="globalErrorPage"   id="globalErrorPage"   >
+      
+      <th:block th:if="serviceException != null">
+	<div style="border: 1px  black; padding: 5px; border-radius : 5px;" >
+   <div style="text-align: center">
+                    <font color="red" size="3">
+                        <b th:text="${serviceException}"/>
+                    </font>
+             </div>  
+</div>
+</th:block>
+      
+      </form>
+      </div>
+      </body>
+      </html>
